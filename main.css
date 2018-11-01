@@ -3,11 +3,12 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: sienna;
 }
 
 .header {
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color:sandyBrown;
   padding: 20px 10px;
 }
 .header a {
@@ -27,8 +28,9 @@ body {
 }
 
 .header a:hover {
-  background-color: #ddd;
+  background-color:Tan;
   color: black;
+  border: outset;
 }
 
 .header a.active {
@@ -66,6 +68,9 @@ body {
 }
 .PAWS {
   margin-left: 26%;
+}
+.navbar{
+  color: white;
 }
 
 @media screen and (max-width: 500px) {
