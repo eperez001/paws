@@ -62,4 +62,11 @@ h1{
     float: none;
   }
 }
-.mySlides {display:none;}
+.mySlides {display:none;
+text-align: center;
+width: 400px;
+height: 250px;
+margin-left: 20%}
+h2{
+  text-align: center;
+}
