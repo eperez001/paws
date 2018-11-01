@@ -10,9 +10,8 @@ body {
   background-color: #f1f1f1;
   padding: 20px 10px;
 }
-
 .header a {
-  float: left;
+  float: none;
   color: black;
   text-align: center;
   padding: 12px;
@@ -40,6 +39,34 @@ body {
 .header-right {
   float: right;
 }
+.footer {
+  overflow: hidden;
+  background-color: #111;
+  padding: 20px 10px;
+  height: 100%;
+  width: 100px;
+  position: fixed;
+  top: 64.5px;
+  right: (0,0);
+  overflow-x: hidden;
+  padding-top: 20px;
+  color: #FFF;
+}
+
+.footer a {
+  padding: 6px 6px 6px 4px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #818181;
+  display: block;
+}
+
+.footer a:hover {
+  color: #f1f1f1;
+}
+.PAWS {
+  margin-left: 26%;
+}
 
 @media screen and (max-width: 500px) {
   .header a {
@@ -49,5 +76,32 @@ body {
   }
   .header-right {
     float: none;
+  }
+  .footer {
+    overflow: hidden;
+    padding: 20px 10px;
+    height: 100%;
+    width: 100px;
+    position: fixed;
+    top: 235px;
+    right: (0,0);
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  .footer a {
+    padding: 6px 6px 6px 4px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #818181;
+    display: block;
+  }
+
+  .footer a:hover {
+    color: #f1f1f1;
+  }
+  .title {
+    margin-left: 26%;
   }
 }
